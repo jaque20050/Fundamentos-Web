@@ -1,0 +1,55 @@
+/*
+Estilo da Pagina index.html
+*/
+.container{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    align-items: center;
+}
+#menu li{
+    display: inline;
+    padding: 30px;
+}
+#menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#menu li a:hover{
+    color:red;
+}
+.br-50{/*arredonda imagem
+    */
+    border-radius: 50%;
+}
+.tm-social{
+    width: 30px;
+    height: 30px;
+}
+.bladerunner{
+    background-image: url("../img/pngwing.com.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    margin-left: 325px;
+}
+.sinopse{
+    position: absolute;
+    bottom: 100px;
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+    width: 45%;
+    font-size: 20px;
+    font-family: 'Merienda One', cursive;
+}
+/*>
+padding = estaçamento interno do conteudo
+/*
+Estilo da Pagina contato.html
+*/
+.paragrafo{
+    font-size: 20px;
+    font-family: 'Merienda One', cursive;
+}
